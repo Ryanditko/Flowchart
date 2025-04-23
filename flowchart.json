@@ -1,20 +1,20 @@
-# exemplo de saida 
+// exemplo de saida
 {
-  "nodes": [
-    {
-      "id": 0,
-      "type": "rectangle",
-      "text": "Início do Processo",
-      "position": [120, 85]
-    },
-    {
-      "id": 1,
-      "type": "diamond",
-      "text": "Decisão",
-      "position": [120, 200]
-    }
-  ],
-  "connections": [
-    {"from": 0, "to": 1, "type": "arrow"}
-  ]
-}
+    "nodes": [
+      {
+        "id": 0,
+        "type": "rectangle",
+        "text": "Início do Processo",
+        "position": [120, 85]
+      },
+      {
+        "id": 1,
+        "type": "diamond",
+        "text": "Decisão",
+        "position": [120, 200]
+      }
+    ],
+    "connections": [
+      {"from": 0, "to": 1, "type": "arrow"}
+    ]
+  }
